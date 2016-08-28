@@ -15,8 +15,8 @@ using namespace std;
  */
 int main(int argc, char** argv) {
     cliente * nuevo= new cliente(5001,"127.0.0.1\0");
-    nuevo->writeOnServer();
-    //nuevo->readOnServer();
+    //nuevo->writeOnServer();
+    nuevo->readOnServer();
     return 0;
 }
 
